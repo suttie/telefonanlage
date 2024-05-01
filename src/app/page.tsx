@@ -22,6 +22,7 @@ export default function Home() {
 
                 const newElement = {
                   number: row[0],
+
                   apps: [
                     {
                       name: "DialPhone",
@@ -33,6 +34,7 @@ export default function Home() {
                       },
                     },
                   ],
+                  comment: "",
                 };
                 result.push(newElement);
               });
