@@ -21,13 +21,13 @@ export default function Home() {
                 }
 
                 const newElement = {
-                  number: row[0],
+                  number: JSON.stringify(row[0]),
 
                   apps: [
                     {
                       name: "DialPhone",
                       params: {
-                        number: row[1] || "",
+                        number: JSON.stringify(row[1] || ""),
                         timeout: "",
                         options: "",
                         msgForOperator: "",
